@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Allison&display=swap");
+
+body {
+  background: url(images/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100vw 100vw;
+  overflow-wrap: normal;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  z-index: -1;
+  font-size: 2.5rem;
+}
+
+.parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  display: flex;
+  flex-direction: row;
+}
+
+#btn {
+  color: aliceblue;
+  margin: 15px;
+}
+
+h1 {
+  color: aliceblue;
+  font-family: "Allison", cursive;
+  font-weight: 500;
+  margin: 2%;
+  font-size: 8.5rem;
+}
+
+@media (max-width: 1000px) {
+  body {
+    background-size: 240vw 240vw;
+    font-size: 4rem;
+  }
+
+  h1 {
+    font-size: 13rem;
+  }
+}
