@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Allison&display=swap");
 
 body {
-  background: url(images/bg2.gif);
+  background: url(images/bg21.gif);
   background-repeat: no-repeat;
   background-size: 100%;
   overflow-wrap: normal;
@@ -12,9 +12,6 @@ body {
   width: 100%;
   height: 100%;
   position: fixed;
-  left: 0px;
-  right: 0px;
-  z-index: -1;
   font-size: 2.5rem;
 }
 
@@ -45,11 +42,13 @@ h1 {
 
 @media (max-width: 1000px) {
   body {
-    background-size: 300vw 240vw;
+    background: url(images/bg22.gif);
+    background-size: 100%;
+    background-repeat: no-repeat;
     font-size: 4rem;
   }
 
   h1 {
-    font-size: 13rem;
+    font-size: 15rem;
   }
 }
