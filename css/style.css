@@ -45,10 +45,23 @@ h1 {
     background: url(images/bg22.gif);
     background-size: 100%;
     background-repeat: no-repeat;
-    font-size: 4rem;
+    font-size: 2rem;
+  }
+
+  .parent {
+    margin-bottom: 6rem;
   }
 
   h1 {
-    font-size: 15rem;
+    font-size: 8rem;
+  }
+
+  #btn {
+    color: aliceblue;
+    margin: 11px;
+  }
+
+  i {
+    font-size: 2rem;
   }
 }
