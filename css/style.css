@@ -53,15 +53,15 @@ h1 {
   }
 
   h1 {
-    font-size: 8rem;
+    font-size: 4rem;
   }
 
   #btn {
     color: aliceblue;
-    margin: 11px;
+    margin: 9px;
   }
 
   i {
-    font-size: 2rem;
+    font-size: 1rem;
   }
 }
